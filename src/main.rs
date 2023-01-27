@@ -9,10 +9,10 @@ use std::io::{BufRead, BufReader, ErrorKind, Write};
 fn main() {
     const MAX_GUESSES: u32 = 5_000;
     const PI: f64 = 3.14159265359;
-    let age: &str = "23";
+    let age: &str = "33";
     let mut age: u32 = age.trim().parse().expect("Please type a number!");
     age = age + 1;
-    println!("Your age is {}, and pi is {}", age, PI);
+    println!("Your age is {}, and pi is {}", age - 1, PI);
 
     // FIRST EXAMPLE
     // println!("What is your name?");

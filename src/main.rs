@@ -10,6 +10,40 @@ use std::io::{BufRead, BufReader, ErrorKind, Read, Write};
 // where should i create functions?
 // you can create functions anywhere in your code. It's best to create them in the same file where you're going to use them.
 fn main() {
+    // loop through an array and get the length, min and max
+    // let arr = [12, 2, 3, 4, 5, 6, 7, 8, 9];
+    // let mut min = arr[0];
+    // let mut max = arr[0];
+    // let mut sum = 0;
+    // // for i in arr.iter() {
+    // //     if i < &min {
+    // //         min = *i;
+    // //     }
+    // //     if i > &max {
+    // //         max = *i;
+    // //     }
+    // //     sum += i;
+    // // }
+    // // use loop instead
+    // let mut i = 0;
+    // loop {
+    //     if i >= arr.len() {
+    //         break;
+    //     }
+    //     if arr[i] < min {
+    //         min = arr[i];
+    //     }
+    //     if arr[i] > max {
+    //         max = arr[i];
+    //     }
+    //     sum += arr[i];
+    //     i += 1;
+    // }
+    // println!("Min: {}", min);
+    // println!("Max: {}", max);
+    // println!("Sum: {}", sum);
+    // println!("Length: {}", arr.len());
+
     /*
     // show me something else
     // sure, here's a simple calculator.
